@@ -1,0 +1,9 @@
+<svg width="720" height="480" viewBox="0 0 720 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="720" height="480" rx="28" fill="#f3faf4"/>
+<rect x="80" y="80" width="560" height="320" rx="32" fill="#ffffff" stroke="#d7e8d9" stroke-width="10"/>
+<circle cx="330" cy="240" r="90" fill="#9bcf9b" opacity="0.85"/>
+<circle cx="430" cy="230" r="80" fill="#7ab37a" opacity="0.8"/>
+<circle cx="360" cy="210" r="24" fill="#ffdfbe"/>
+<circle cx="420" cy="270" r="20" fill="#ffcdcd"/>
+<text x="50%" y="86%" text-anchor="middle" fill="#3f6d3f" font-family="Arial Black, Arial, sans-serif" font-size="26">Fresh Greens</text>
+</svg>

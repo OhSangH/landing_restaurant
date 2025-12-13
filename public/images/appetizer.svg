@@ -1,0 +1,9 @@
+<svg width="720" height="480" viewBox="0 0 720 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="720" height="480" rx="28" fill="#fff7ef"/>
+<rect x="90" y="90" width="540" height="300" rx="28" fill="#ffffff" stroke="#f1dfcb" stroke-width="10"/>
+<circle cx="260" cy="240" r="90" fill="#f3a12f" opacity="0.85"/>
+<circle cx="460" cy="240" r="80" fill="#b53a32" opacity="0.9"/>
+<circle cx="330" cy="200" r="30" fill="#ffdfbe"/>
+<circle cx="420" cy="280" r="26" fill="#ffd9c7"/>
+<text x="50%" y="88%" text-anchor="middle" fill="#b53a32" font-family="Arial Black, Arial, sans-serif" font-size="26">Antipasto</text>
+</svg>

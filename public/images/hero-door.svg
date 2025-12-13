@@ -1,0 +1,40 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f4eadb"/>
+    <stop offset="1" stop-color="#f0e1cc"/>
+  </linearGradient>
+  <linearGradient id="door" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#7a4f32"/>
+    <stop offset="1" stop-color="#5a351f"/>
+  </linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#1b1a18" stop-opacity="0.75"/>
+    <stop offset="1" stop-color="#0c0c0c" stop-opacity="0.4"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="800" fill="url(#wall)"/>
+<rect x="640" y="70" width="320" height="660" rx="18" fill="url(#door)" stroke="#3a2415" stroke-width="10"/>
+<rect x="672" y="120" width="256" height="380" rx="12" fill="url(#glass)" stroke="#d9c6a6" stroke-width="8"/>
+<rect x="702" y="150" width="196" height="120" fill="#1d1b18" stroke="#d9c6a6" stroke-width="6"/>
+<rect x="702" y="300" width="196" height="80" fill="#1d1b18" stroke="#d9c6a6" stroke-width="6"/>
+<rect x="702" y="400" width="196" height="60" fill="#1d1b18" stroke="#d9c6a6" stroke-width="6"/>
+<rect x="692" y="520" width="216" height="48" rx="10" fill="#e5c99f" stroke="#d1b385" stroke-width="6"/>
+<rect x="662" y="590" width="276" height="24" rx="8" fill="#d0a273" stroke="#b78352" stroke-width="6"/>
+<circle cx="888" cy="432" r="10" fill="#e7c18b" stroke="#c49a5f" stroke-width="5"/>
+<circle cx="888" cy="460" r="10" fill="#e7c18b" stroke="#c49a5f" stroke-width="5"/>
+<rect x="640" y="70" width="320" height="60" fill="#6d4329"/>
+<text x="800" y="110" text-anchor="middle" fill="#d9c6a6" font-family="Georgia, serif" font-size="32">BRASS WAY</text>
+<text x="800" y="560" text-anchor="middle" fill="#6a4a30" font-family="Georgia, serif" font-size="22">CASUAL DINING</text>
+<rect x="960" y="90" width="140" height="420" rx="10" fill="#6ea079"/>
+<rect x="70" y="120" width="520" height="520" rx="24" fill="#f7f0e2" stroke="#e7dac8" stroke-width="10"/>
+<rect x="80" y="140" width="500" height="400" rx="18" fill="#fff"/>
+<path d="M80 500H580V530C580 545.464 567.464 558 552 558H108C92.536 558 80 545.464 80 530V500Z" fill="#e8dbc8"/>
+<rect x="100" y="160" width="200" height="140" rx="18" fill="#d7c5a7"/>
+<rect x="340" y="160" width="220" height="140" rx="18" fill="#c7b391"/>
+<rect x="120" y="330" width="420" height="60" rx="12" fill="#f0e4d5"/>
+<rect x="120" y="410" width="180" height="60" rx="12" fill="#f0e4d5"/>
+<rect x="320" y="410" width="220" height="60" rx="12" fill="#f0e4d5"/>
+<text x="330" y="250" text-anchor="middle" fill="#5a351f" font-family="Georgia, serif" font-size="38" font-weight="700">BRASS WAY</text>
+<text x="330" y="290" text-anchor="middle" fill="#9c7a55" font-family="Georgia, serif" font-size="18">Korean Western Cuisine</text>
+</svg>
