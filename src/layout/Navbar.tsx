@@ -21,12 +21,14 @@ const navLinks = [
 ];
 
 const Navbar = () => {
+  const logoSrc = `${import.meta.env.BASE_URL}images/Red Cream Delicate Quirky Illustration Wedding Logo.png`;
+
   return (
     <NavbarSurface elevation={0}>
       <Container>
         <Bar>
           <BrandLink to="/">
-            <BrandLogo src="/images/Red Cream Delicate Quirky Illustration Wedding Logo.png" alt="Restaurant 로고" />
+            <BrandLogo src={logoSrc} alt="Restaurant 로고" />
             <div>
               <BrandText variant="subtitle1">{restaurant.name}</BrandText>
               <Typography variant="caption" color="text.secondary">
