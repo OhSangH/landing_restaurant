@@ -1,7 +1,7 @@
 import { RestaurantInfo } from '../types/restaurant';
 
 export const restaurant: RestaurantInfo = {
-  name: 'Casa Bellissima',
+  name: 'Restaurant',
   address: '서울시 강남구 테이블로 123, 1층',
   phone: '02-123-4567',
   hours: [

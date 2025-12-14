@@ -27,18 +27,14 @@ export const BrandLink = styled(RouterLink)(({ theme }) => ({
   color: theme.palette.text.primary,
 }));
 
-export const BrandMark = styled(Box)(({ theme }) => ({
-  width: 42,
-  height: 42,
-  borderRadius: 12,
-  background: 'linear-gradient(135deg, #b53a32, #f0a202)',
-  display: 'grid',
-  placeItems: 'center',
-  color: '#fff',
-  fontWeight: 800,
-  letterSpacing: '-0.02em',
-  fontSize: '1rem',
-  boxShadow: '0 12px 30px rgba(181,58,50,0.25)',
+export const BrandLogo = styled('img')(({ theme }) => ({
+  width: 60,
+  height: 60,
+  borderRadius: 10,
+  objectFit: 'contain',
+  boxShadow: 'none',
+  border: 'none',
+  backgroundColor: '#fff',
 }));
 
 export const BrandText = styled(Typography)(({ theme }) => ({

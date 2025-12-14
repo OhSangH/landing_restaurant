@@ -1,10 +1,10 @@
-import { Container, Stack, Typography } from '@mui/material';
+import { Container, Typography } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 import { restaurant } from '../data/restaurant';
 import {
   Bar,
   BrandLink,
-  BrandMark,
+  BrandLogo,
   BrandText,
   CallButton,
   ContactBox,
@@ -26,11 +26,11 @@ const Navbar = () => {
       <Container>
         <Bar>
           <BrandLink to="/">
-            <BrandMark>CB</BrandMark>
+            <BrandLogo src="/images/Red Cream Delicate Quirky Illustration Wedding Logo.png" alt="Restaurant 로고" />
             <div>
               <BrandText variant="subtitle1">{restaurant.name}</BrandText>
               <Typography variant="caption" color="text.secondary">
-                European Kitchen & Bar
+                Restaurant
               </Typography>
             </div>
           </BrandLink>
