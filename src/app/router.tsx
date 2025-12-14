@@ -14,6 +14,7 @@ const router = createBrowserRouter(
       <Route path="directions" element={<DirectionsPage />} />
     </Route>,
   ),
+  { basename: import.meta.env.BASE_URL },
 );
 
 export default router;
