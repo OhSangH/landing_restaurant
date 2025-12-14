@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import { HelmetProvider } from 'react-helmet-async';
 import App from './App';
-import router from './router';
 import theme from './theme/theme';
 import { AppGlobalStyles } from './theme/globalStyles';
 import '../styles/reset.css';

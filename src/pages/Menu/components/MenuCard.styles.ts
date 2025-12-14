@@ -1,7 +1,7 @@
 import { Card, CardActionArea, CardContent, Chip, Stack, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-export const MenuCardContainer = styled(Card)(({ theme }) => ({
+export const MenuCardContainer = styled(Card)(() => ({
   borderRadius: 18,
   overflow: 'hidden',
   boxShadow: '0 16px 38px rgba(0,0,0,0.08)',
@@ -9,7 +9,7 @@ export const MenuCardContainer = styled(Card)(({ theme }) => ({
   height: '100%',
 }));
 
-export const MenuCardAction = styled(CardActionArea)(({ theme }) => ({
+export const MenuCardAction = styled(CardActionArea)(() => ({
   height: '100%',
   display: 'flex',
   flexDirection: 'column',
@@ -39,7 +39,7 @@ export const CategoryChip = styled(Chip)(({ theme }) => ({
   fontWeight: 700,
 }));
 
-export const PriceTag = styled(Typography)(({ theme }) => ({
+export const PriceTag = styled(Typography)(() => ({
   fontWeight: 800,
   fontSize: '1.05rem',
 }));

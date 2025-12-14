@@ -27,7 +27,7 @@ export const BrandLink = styled(RouterLink)(({ theme }) => ({
   color: theme.palette.text.primary,
 }));
 
-export const BrandLogo = styled('img')(({ theme }) => ({
+export const BrandLogo = styled('img')(() => ({
   width: 60,
   height: 60,
   borderRadius: 10,

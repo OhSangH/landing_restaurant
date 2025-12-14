@@ -11,7 +11,7 @@ export const StepsList = styled(List)(({ theme }) => ({
   padding: 0,
 }));
 
-export const StepItem = styled(ListItem)(({ theme }) => ({
+export const StepItem = styled(ListItem)(() => ({
   borderRadius: 12,
   border: '1px solid rgba(0,0,0,0.05)',
   backgroundColor: '#fdfbf7',

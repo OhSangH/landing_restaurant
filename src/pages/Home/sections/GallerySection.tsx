@@ -9,7 +9,7 @@ const GallerySection = () => {
   const featured = menuItems.slice(0, 6);
 
   return (
-    <GalleryWrapper component="section">
+    <GalleryWrapper>
       <Stack spacing={1}>
         <Typography variant="h2">가게 풍경 & 시그니처</Typography>
         <Typography variant="subtitle1">따뜻한 조명 아래, 대표 메뉴와 공간의 분위기를 미리 느껴보세요.</Typography>
