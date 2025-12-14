@@ -1,8 +1,0 @@
-<svg width="720" height="480" viewBox="0 0 720 480" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="720" height="480" rx="28" fill="#f2f7ff"/>
-<rect x="90" y="80" width="540" height="320" rx="28" fill="#ffffff" stroke="#d7e4f7" stroke-width="10"/>
-<rect x="300" y="130" width="120" height="220" rx="24" fill="#9ac7ff" opacity="0.7"/>
-<rect x="320" y="150" width="80" height="180" rx="18" fill="#6fa8ff" opacity="0.8"/>
-<circle cx="360" cy="340" r="24" fill="#3f7ae0"/>
-<text x="50%" y="86%" text-anchor="middle" fill="#265ab8" font-family="Arial Black, Arial, sans-serif" font-size="26">Sangria</text>
-</svg>
