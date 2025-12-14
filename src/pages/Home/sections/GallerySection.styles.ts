@@ -11,7 +11,7 @@ export const GalleryGrid = styled('div')(({ theme }) => ({
   gap: theme.spacing(2.5),
 }));
 
-export const GalleryCard = styled(Card)(({ theme }) => ({
+export const GalleryCard = styled(Card)(() => ({
   borderRadius: 18,
   overflow: 'hidden',
   boxShadow: '0 18px 45px rgba(0,0,0,0.08)',

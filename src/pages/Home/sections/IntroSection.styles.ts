@@ -41,7 +41,7 @@ export const HeroActions = styled(Stack)(({ theme }) => ({
   flexWrap: 'wrap',
 }));
 
-export const HeroImage = styled(Box)(({ theme }) => ({
+export const HeroImage = styled(Box)(() => ({
   width: '100%',
   backgroundImage:
     'url("https://images.pexels.com/photos/2956954/pexels-photo-2956954.jpeg?auto=compress&cs=tinysrgb&w=1600&h=1000&dpr=1")',

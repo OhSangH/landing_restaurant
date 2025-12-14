@@ -36,7 +36,7 @@ export const DetailContent = styled(Stack)(({ theme }) => ({
 }));
 
 export const MetaRow = styled(Stack)(({ theme }) => ({
-  direction: 'row',
+  flexDirection: 'row',
   flexWrap: 'wrap',
   gap: theme.spacing(1),
 }));
